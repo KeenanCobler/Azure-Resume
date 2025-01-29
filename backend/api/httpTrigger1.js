@@ -1,7 +1,7 @@
 const { CosmosClient } = require("@azure/cosmos"); 
 
-const endpoint = process.env.COSMOS_ENDPOINT;
-const key = process.env.COSMOS_KEY;
+const endpoint = "endpoint placeholder"; // Add your endpoint
+const key = "key placeholder"; // Add your key
 
 if (!endpoint || !key) {
   throw new Error("COSMOS_ENDPOINT or COSMOS_KEY is not set correctly in the environment variables.");
